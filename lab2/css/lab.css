@@ -1,0 +1,17 @@
+h1 {
+    color: darkblue;
+    font-size: 300%;
+}
+
+p {
+    color: black;
+    text-indent: 20px;
+    margin-left: 10px;
+    font-size: 200%;
+}
+
+#content {
+    font-family:'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+    border: solid 1px black;
+    border-style: dotted;
+}
