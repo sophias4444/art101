@@ -1,6 +1,6 @@
 /**
-* Summary.
-* Description.
+* Create a javascript file that includes pseudocode
+* HangMan Pseudocode
 * @link URL
 * @file this file defines the myclass class
 * @author Sophia Syed & Andrew Dresel-Kurtz.
