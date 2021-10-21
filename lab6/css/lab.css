@@ -1,0 +1,24 @@
+h1 {
+    color: black;
+    font-size: 250%;
+    font-family: 'Roboto Condensed' , Helvetica, sans-serif;
+}
+.navbar, h2, h3 {
+    color: black;
+    font-size: 150%;
+    font-family: 'Roboto Condensed' , Helvetica, sans-serif;
+}
+
+p {
+    color: black;
+    text-indent: 20px;
+    margin-left: 10px;
+    font-size: 100%;
+}
+
+img {
+  border: 5px solid #555;
+}
+
+
+body {background-color: grey;}
