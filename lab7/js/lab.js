@@ -8,11 +8,11 @@
 function sortUserName() {
 
   var userName = window.prompt("What is your name?: ");
+  userName.toLowerCase();
   console.log("userName =" , userName);
 
   //split string to Array
   var nameArray = userName.split('');
-  console.log("nameArray =", nameArray);
 
   //sort the Array
   var nameArraySort = nameArray.sort();
@@ -26,5 +26,4 @@ function sortUserName() {
 }
 
   //Output
-  document.writeln("Your old name: " , userName , "<br>");
-  document.writeln("Here is your new name: " , sortUsername() , "</br>");
+  document.writeln("Here is your new name: " , sortUserName() , "</br>");
