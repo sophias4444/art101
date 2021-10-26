@@ -1,36 +1,18 @@
-body {
-  background-color: white;
-}
-
 h1 {
-  color: #242424;
-  font-size: 50px;
-  font-family: monospace;
-}
-
-h2 {
-  color: #242424;
-  font-size: 25px;
-  font-family: monospace;
+    color: blue;
+    font-size: 300%;
 }
 
 p {
-  color: #242424;
-  font-family: monospace;
-  text-indent: 30px;
+    color: black;
+    text-indent: 20px;
+    margin-left: 10px;
+    font-size: 100%;
 }
 
 #content {
-  color: white;
-  width: 800px;
-  min-height: 300px;
-  padding: 10px;
-  margin: 10px;
-  border: solid 10px #242424;
+    font-family:'Segoe UI Light', monospace, Geneva, Verdana, sans-serif;
+    border: solid 6px black;
+    border-style: dotted;
 }
-
-.output {
-  color: #242424;
-  font-family: monospace;
-  margin: 10px;
-}
+body {background-color: cyan;}
