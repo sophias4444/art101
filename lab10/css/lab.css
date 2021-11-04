@@ -1,0 +1,18 @@
+h1 {
+    color: blue;
+    font-size: 300%;
+}
+
+body {
+    color: black;
+    text-indent: 20px;
+    margin-left: 10px;
+    font-size: 100%;
+}
+
+#content {
+    font-family:'Segoe UI Light', monospace, Geneva, Verdana, sans-serif;
+    border: solid 6px black;
+    border-style: dotted;
+}
+body {background-color: cyan;}
