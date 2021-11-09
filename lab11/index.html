@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lab 11: jQuery</title>
+    <link rel="stylesheet" type="text/css" href="../css/site.css">
+    <link rel="stylesheet" type="text/css" href="css/lab.css">
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"></script>
+
+    <script src="js/lab.js" defer></script>
+
+  </head>
+  <body>
+    <main id="content">
+      <h1>Lab 11: Libraries and jQuery </h1>
+      <div id="challenge" class="section">
+        <h2>Challenge</h2>
+        <p> Working with a partner, the object of this lab is to experiment with
+        jQuery. We had to use jQuery to create buttons to add to the Challenge,
+      Problems, and Results sections of our lab. </p>
+      </div>
+
+      <div id="problems" class="section">
+        <h2>Problems</h2>
+        <p>
+          <table>
+            One of the problems I encountered was that the text wasn't showing up
+            on one of my buttons. After looking over it in the console, I still couldn't
+            figure out the error. So I compared by code for the other two buttons and
+            realized I was missing a '>'before the 'click here!' button label.
+            It turned out to be a syntax error, so it was a simple fix. Another,
+            problem I had was with the background change of the results in the
+            css. Although the style changes to the classes special and section
+            were successfully applied to the challenge and problems sections, it
+            wasn't working for the results section.
+        </table>
+      </p>
+      </div>
+
+      <div id="results" class="section">
+        <h2>Results</h2>
+        <p>We were able to succesfully use jQuery to create buttons as seen on
+           this page! </p>
+      </div>
+    </main>
+  </body>
+</html>

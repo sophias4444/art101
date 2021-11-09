@@ -1,0 +1,11 @@
+
+.section {
+  border: dotted 4px black;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.special {
+  background-color: #5ea689;
+}
