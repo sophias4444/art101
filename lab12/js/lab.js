@@ -26,5 +26,5 @@ myButton.click(function(){
   var name = $("#input").val();
   var house = sortingHat(name);
   var newText = "<p>The House the Sorting Hat has sorted you into is " + house +"</p>";
-  $("#output").html(newText);
+  $("#output").html(newText);     
 });
