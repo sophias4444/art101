@@ -1,4 +1,10 @@
-var myUrl = "https://catfact.ninja/fact";
+/*
+* Author: Sophia Syed <sosyed@ucsc.edu>
+* Created: 11.29.21
+* License : Public Domain
+* Lab 15: AJAX
+*/
+var myUrl = "https://catfact.ninja/fact/";
 
 $("#activate").click(callAjax);
 

@@ -1,9 +1,9 @@
-h1 {
+head {
     color: #1b573f;
-    font-size: 300%;
+    font-size: 200%;
 }
 
-body {
+h1 {
     color: black;
     text-indent: 20px;
     margin-left: 10px;
@@ -14,7 +14,9 @@ body {
 
 #content {
     font-family:'Segoe UI Light', monospace, Geneva, Verdana, sans-serif;
-    border: solid 6px black;
+    border: solid 2px black;
     border-style: dotted;
 }
-body {background-color: #afedd4;}
+body {background-color: #afedd4;
+  font-family:'Segoe UI Light', monospace, Geneva, Verdana, sans-serif;
+}
