@@ -1,0 +1,32 @@
+h1 {
+    color: #1b573f;
+    font-size: 300%;
+}
+
+body {
+    color: black;
+    text-indent: 20px;
+    margin-left: 10px;
+    font-size: 100%;
+    padding: 10px;
+    margin: 10px;
+}
+
+#content {
+    font-family:'Segoe UI Light', monospace, Geneva, Verdana, sans-serif;
+    border: solid 2px black;
+    border-style: dotted;
+}
+body {background-color: #afedd4;
+  font-family:'Segoe UI Light', monospace, Geneva, Verdana, sans-serif;
+}
+
+#output p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#output.columns {
+    -webkit-column-width: 200px; /* Chrome, Safari, Opera */
+    column-width: 200px;
+}
